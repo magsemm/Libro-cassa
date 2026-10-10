@@ -1,0 +1,44 @@
+LIBRO CASSA - app installabile
+==============================
+
+Contenuto della cartella
+  index.html            l'app (pagina, grafici e logica)
+  manifest.webmanifest  nome, colori e icone dell'app
+  sw.js                 la fa aprire anche senza rete
+  icons/                icone per telefono, computer e scheda del browser
+
+1) PUBBLICARLA (una volta sola, gratis)
+   Le app installabili devono stare su un indirizzo https. I file non contengono
+   dati personali: i tuoi movimenti restano sul tuo dispositivo.
+
+   GitHub Pages
+     - crea un repository pubblico e carica TUTTI i file di questa cartella,
+       mantenendo la cartella icons
+     - Settings > Pages > Source: "Deploy from a branch", branch main, cartella /(root)
+     - dopo uno-due minuti l'app e' su https://TUOUTENTE.github.io/NOMEREPO/
+
+   Netlify (senza Git)
+     - crea un account gratuito, poi "Add new site" > "Deploy manually"
+     - trascina qui la cartella intera
+
+2) INSTALLARLA
+   Android (Chrome)     apri l'indirizzo, tocca "Installa l'app" in alto
+                        (oppure menu a tre puntini > Installa app)
+   iPhone/iPad (Safari) apri l'indirizzo, tocca Condividi > "Aggiungi alla schermata Home"
+   Windows/Mac (Chrome o Edge)
+                        icona di installazione a destra nella barra dell'indirizzo,
+                        oppure il pulsante "Installa l'app" in alto
+   Mac (Safari)         File > "Aggiungi al Dock"
+
+   Su iPhone installa PRIMA di inserire i dati: Safari e l'app installata
+   possono avere archivi separati.
+
+3) I DATI
+   - Restano su ogni dispositivo: telefono e computer non si sincronizzano da soli.
+   - In fondo alla pagina, "Salva un backup" crea un file .json; "Ripristina da backup"
+     lo rimette (anche su un altro dispositivo). "Esporta in CSV" apre in Excel.
+   - Se cancelli i dati del sito dal browser, i movimenti spariscono: fai un backup ogni tanto.
+
+4) AGGIORNARLA
+   Dopo aver modificato i file, apri sw.js e cambia VERSION (es. 'v1' in 'v2'),
+   poi ricarica i file sul sito. L'app si aggiorna alla riapertura successiva.

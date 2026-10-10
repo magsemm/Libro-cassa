@@ -1,0 +1,18 @@
+{
+  "name": "Libro cassa",
+  "short_name": "Libro cassa",
+  "description": "Registra guadagni e spese e guarda saldo, andamento mensile e categorie. I dati restano sul tuo dispositivo.",
+  "lang": "it",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EDF0F4",
+  "theme_color": "#0F2A2E",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
