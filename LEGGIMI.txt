@@ -5,15 +5,15 @@ Contenuto della cartella
   index.html            l'app (pagina, grafici e logica)
   manifest.webmanifest  nome, colori e icone dell'app
   sw.js                 la fa aprire anche senza rete
-  icons/                icone per telefono, computer e scheda del browser
+  *.png, icon.svg       le icone (telefono, computer e scheda del browser)
 
 1) PUBBLICARLA (una volta sola, gratis)
    Le app installabili devono stare su un indirizzo https. I file non contengono
    dati personali: i tuoi movimenti restano sul tuo dispositivo.
 
    GitHub Pages
-     - crea un repository pubblico e carica TUTTI i file di questa cartella,
-       mantenendo la cartella icons
+     - crea un repository pubblico e carica TUTTI i file di questa cartella
+       (sono tutti nella stessa cartella: non servono sottocartelle)
      - Settings > Pages > Source: "Deploy from a branch", branch main, cartella /(root)
      - dopo uno-due minuti l'app e' su https://TUOUTENTE.github.io/NOMEREPO/
 
